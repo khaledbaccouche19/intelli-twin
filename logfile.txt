@@ -1,0 +1,30 @@
+2025-06-27 17:33:17.812 CEST [3436] LOG:  démarrage de PostgreSQL 17.5 on x86_64-windows, compiled by msvc-19.44.35209, 64-bit
+2025-06-27 17:33:17.815 CEST [3436] LOG:  en écoute sur IPv6, adresse « ::1 », port 5432
+2025-06-27 17:33:17.815 CEST [3436] LOG:  en écoute sur IPv4, adresse « 127.0.0.1 », port 5432
+2025-06-27 17:33:17.850 CEST [9528] LOG:  le système de bases de données a été arrêté à 2025-06-27 16:19:52 CEST
+2025-06-27 17:33:17.865 CEST [3436] LOG:  le système de bases de données est prêt pour accepter les connexions
+2025-06-27 17:33:41.895 CEST [3436] LOG:  a reçu une demande d'arrêt rapide
+2025-06-27 17:33:41.896 CEST [4500] ERREUR:  annulation de la requête à la demande de l'utilisateur
+2025-06-27 17:33:41.908 CEST [3436] LOG:  annulation des transactions actives
+2025-06-27 17:33:41.909 CEST [3436] LOG:  processus en tâche de fond « logical replication launcher » (PID 4500) a quitté avec le code de sortie 1
+2025-06-27 17:33:41.913 CEST [11388] LOG:  arrêt en cours
+2025-06-27 17:33:41.915 CEST [11388] LOG:  début du checkpoint : shutdown immediate
+2025-06-27 17:33:41.929 CEST [11388] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.003 s, total=0.016 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/156DD38, redo lsn=0/156DD38
+2025-06-27 17:33:41.937 CEST [3436] LOG:  le système de base de données est arrêté
+2025-06-27 17:35:57.217 CEST [16652] LOG:  démarrage de PostgreSQL 17.5 on x86_64-windows, compiled by msvc-19.44.35209, 64-bit
+2025-06-27 17:35:57.221 CEST [16652] LOG:  en écoute sur IPv6, adresse « ::1 », port 5432
+2025-06-27 17:35:57.221 CEST [16652] LOG:  en écoute sur IPv4, adresse « 127.0.0.1 », port 5432
+2025-06-27 17:35:57.372 CEST [11484] LOG:  le système de bases de données a été arrêté à 2025-06-27 17:33:41 CEST
+2025-06-27 17:35:57.392 CEST [16652] LOG:  le système de bases de données est prêt pour accepter les connexions
+2025-06-27 17:38:56.664 CEST [8812] FATAL:  la base de données « employees » n'existe pas
+2025-06-27 17:38:58.157 CEST [6432] FATAL:  la base de données « employees » n'existe pas
+2025-06-27 17:39:56.480 CEST [15096] FATAL:  la base de données « employees » n'existe pas
+2025-06-27 17:39:57.966 CEST [9460] FATAL:  la base de données « employees » n'existe pas
+2025-06-27 17:40:57.242 CEST [8000] LOG:  début du checkpoint : time
+2025-06-27 17:42:46.461 CEST [8000] LOG:  checkpoint complete: wrote 1019 buffers (6.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=108.902 s, sync=0.297 s, total=109.221 s; sync files=310, longest=0.002 s, average=0.001 s; distance=4885 kB, estimate=4885 kB; lsn=0/1A335C0, redo lsn=0/1A33530
+2025-06-28 18:36:29.860 CEST [8000] LOG:  début du checkpoint : time
+2025-06-28 18:36:36.684 CEST [8000] LOG:  checkpoint complete: wrote 64 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.734 s, sync=0.064 s, total=6.824 s; sync files=42, longest=0.013 s, average=0.002 s; distance=180 kB, estimate=4415 kB; lsn=0/1A60860, redo lsn=0/1A607D0
+2025-06-28 18:41:29.692 CEST [8000] LOG:  début du checkpoint : time
+2025-06-28 18:41:30.283 CEST [8000] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.543 s, sync=0.021 s, total=0.592 s; sync files=5, longest=0.013 s, average=0.005 s; distance=0 kB, estimate=3973 kB; lsn=0/1A60B90, redo lsn=0/1A60B38
+2025-06-28 19:00:04.503 CEST [8000] LOG:  début du checkpoint : time
+2025-06-28 19:00:04.627 CEST [8000] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.106 s, sync=0.006 s, total=0.125 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=3576 kB; lsn=0/1A60E48, redo lsn=0/1A60DF0
